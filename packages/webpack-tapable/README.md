@@ -1,5 +1,9 @@
 # Tapable
 
+发布订阅模式
+
+tap 只是订阅了钩子函数,我们还需要发布他 call
+
 tapable 是一个类似于 nodejs 的 EventEmitter 的库，主要是控制钩子函数的发布与订阅，控制着 webpack 的插件系。webpack 的本质就是一系列的插件运行。
 
 The tapable package expose many Hook classes, which can be used to create hooks for plugins.
